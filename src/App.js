@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import Comp1 from "./Components/Comp1";
+import Comp2 from "./Components/Comp2";
+import Comp3 from "./Components/Comp3";
+import Festival from "./Components/Festival";
+import Register from "./Components/Register";
 
 function App() {
+  const [isselected, setisSelected] = useState(null);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="outercontainer">
+      <div className="innercontainer">
+        <Festival isselected={isselected} setisSelected={setisSelected} />
+        <Register isselected={isselected} setisSelected={setisSelected} />
+      </div>
     </div>
   );
 }

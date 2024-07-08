@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "image": " https://www.tourmyindia.com/blog//wp-content/uploads/2021/03/Yamunotri-Temple.jpg",
+    "Festival": "Puthanaikkal Kalavela",
+    "title": "Uttarakhand, India"
+  },
+  {
+    "id": 2,
+    "image": "https://www.tourmyindia.com/blog//wp-content/uploads/2021/03/Sree-Padmanabhaswamy-Temple.jpg",
+    "Festival": "Puthanaikkal Kalavela",
+    "title": "Karnataka, India"
+  },
+  {
+    "id": 3,
+    "image": "https://www.tourmyindia.com/blog//wp-content/uploads/2021/03/Tirupati-Balaji.jpg",
+    "title": "Andhra Pradesh, India",
+    "Festival": "Shivam"
+  },
+  {
+    "id": 4,
+    "image": " https://www.tourmyindia.com/blog//wp-content/uploads/2021/03/Rameshwaram-Temple.jpg",
+    "title": "Tamil Nadu, India",
+    "Festival": "Janapada Kolatam"
+  }
+]
